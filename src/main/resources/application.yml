@@ -9,8 +9,7 @@ spring:
         git:
           uri: https://github.com/nareshmiriyala/config-repo
           search-paths: licensingservice
-          username: ncmiriyala@gmail.com
-          password: naresh277644
+         
 encrypt:
   key-store:
     location: server.jks
