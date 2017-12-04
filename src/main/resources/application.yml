@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations:  file:///C:\\workspace\\mywork\\MicroServices_Config_server\\src\\main\\resources\\config\\licensingservice
